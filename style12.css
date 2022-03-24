@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.khungchat {
+  width: 400px;
+  height: 500px;
+  border: solid black 2px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  overflow: hidden;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom:solid gray 1px ;
+    height: 7%;
+}
+.logo h3{
+    width: 70%;
+}
+span{
+    border: 1px;
+    background-color: rgb(172, 229, 231);
+    border-radius: 5px;
+}
+.chat{
+    padding: 5px;
+    overflow-y: auto;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+}
+.mes{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 40%;
+}
+.invi{
+    display: none;
+}
+.dongchat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid dimgrey 1px;
+
+}
+#ochat{
+    width: 90%;
+    padding-left: 10px;
+    border: none;
+}
+.send{
+    width: 10%;
+    border: none;
+    cursor: pointer;
+}
+.spanright{
+    background-color: rgb(212, 104, 61);
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+.xoa{
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+    cursor: pointer;
+}
